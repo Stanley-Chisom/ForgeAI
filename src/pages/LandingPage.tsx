@@ -55,7 +55,7 @@ function LandingPage() {
             <div className="flex items-center space-x-2">
               <Sparkles className="w-8 h-8 text-cyan-400" />
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
-                PromptCraft
+                ForgeAI
               </span>
             </div>
 
