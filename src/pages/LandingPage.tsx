@@ -233,11 +233,11 @@ function LandingPage() {
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Sparkles className="w-6 h-6 text-cyan-400" />
               <span className="text-lg font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
-                PromptCraft
+                ForgeAi
               </span>
             </div>
             <p className="text-gray-500">
-              © 2024 PromptCraft. All rights reserved.
+              © 2024 ForgeAi. All rights reserved.
             </p>
           </div>
         </div>

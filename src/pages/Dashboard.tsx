@@ -70,7 +70,7 @@ function Dashboard() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
-                PromptCraft
+                ForgeAI
               </h1>
               {/* <div className="hidden md:flex space-x-6 ml-8">
                 <button className="text-gray-300 hover:text-white transition-colors">
