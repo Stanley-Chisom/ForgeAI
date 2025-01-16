@@ -8,7 +8,6 @@ import {
   Share2,
   ChevronDown,
   Loader2,
-  LogOut,
 } from "lucide-react";
 import { generatePrompts } from "../services/ai";
 
@@ -56,7 +55,6 @@ function Dashboard() {
   const handleCopyPrompt = async (content: string) => {
     try {
       await navigator.clipboard.writeText(content);
-      // You could add a toast notification here
     } catch (err) {
       console.error("Failed to copy prompt:", err);
     }
@@ -72,22 +70,7 @@ function Dashboard() {
               <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
                 ForgeAI
               </h1>
-              {/* <div className="hidden md:flex space-x-6 ml-8">
-                <button className="text-gray-300 hover:text-white transition-colors">
-                  <History className="w-5 h-5" />
-                </button>
-                <button className="text-gray-300 hover:text-white transition-colors">
-                  <Star className="w-5 h-5" />
-                </button>
-                <button className="text-gray-300 hover:text-white transition-colors">
-                  <Settings className="w-5 h-5" />
-                </button>
-              </div> */}
             </div>
-            <button className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
-              <LogOut className="w-5 h-5" />
-              <span className="hidden md:inline">Sign Out</span>
-            </button>
           </div>
         </div>
       </header>
