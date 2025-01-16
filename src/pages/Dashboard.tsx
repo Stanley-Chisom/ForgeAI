@@ -192,7 +192,7 @@ function Dashboard() {
                 {isGenerating && (
                   <div className="flex items-center justify-center py-12">
                     <Loader2 className="w-8 h-8 animate-spin text-gray-400" />
-                    <span className="ml-2 text-cyan-400">
+                    <span className="ml-2 text-gray-300">
                       Generating prompts...
                     </span>
                   </div>
