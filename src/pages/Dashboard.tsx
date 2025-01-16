@@ -10,6 +10,7 @@ import {
   Loader2,
 } from "lucide-react";
 import { generatePrompts } from "../services/ai";
+import { Link } from "react-router-dom";
 
 const niches = [
   "General",
@@ -68,7 +69,7 @@ function Dashboard() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
-                ForgeAI
+                 <Link to={"../components/hero"}>ForgeAI</Link>
               </h1>
             </div>
           </div>

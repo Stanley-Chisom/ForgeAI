@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
           Turn Your Ideas Into Perfect Prompts for Any AI
         </h1>
-        <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+        <p className="text-[1.2rem] text-gray-400 mb-12 max-w-[65ch] mx-auto">
           No matter your niche, our AI refines your vision into actionable
           prompts that get results. Perfect for developers, marketers, and
           content creators.
